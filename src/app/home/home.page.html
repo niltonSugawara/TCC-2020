@@ -1,0 +1,37 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color= "medium">
+    <ion-title><ion-icon name ="" color="dark"  ></ion-icon>
+      exPRIrience
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="animated bounceInUp">
+
+  <ion-img expand='block' src='../assets/icon/logo.png'></ion-img>
+
+    <ion-button expand='block' color="primary" (click)='showPageWrite()'>
+        Write
+        <ion-icon name ="pencil-outline" color="dark" slot="end">
+        </ion-icon>        
+      </ion-button>
+
+      <ion-button expand='block' color="secondary" (click)='showPageRead()'>
+        Read
+        <ion-icon name ="book-outline" color="dark" slot="end">
+        </ion-icon>        
+      </ion-button>
+
+      <ion-button expand='block' color="primary" (click)='showPageListen()'>
+        Listen
+        <ion-icon name ="headset-outline" color="dark" slot="end">
+        </ion-icon>        
+      </ion-button>
+
+      <ion-button expand='block' color="secondary" (click)='showPageSpeak()'>
+        Speak
+        <ion-icon name ="mic-outline" color="dark" slot="end">
+        </ion-icon>        
+      </ion-button>
+      
+</ion-content>

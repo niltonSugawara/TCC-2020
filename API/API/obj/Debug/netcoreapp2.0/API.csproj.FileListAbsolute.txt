@@ -1,0 +1,28 @@
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\API.deps.json
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\API.runtimeconfig.json
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\API.runtimeconfig.dev.json
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\API.dll
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\API.pdb
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.csprojAssemblyReference.cache
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.AssemblyInfoInputs.cache
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.AssemblyInfo.cs
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.dll
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.pdb
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.genruntimeconfig.cache
+C:\Users\jpc_8\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.csproj.CoreCompileInputs.cache
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\appsettings.json
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\Properties\launchSettings.json
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\API.deps.json
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\API.runtimeconfig.json
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\API.runtimeconfig.dev.json
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\API.dll
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\bin\Debug\netcoreapp2.0\API.pdb
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.csprojAssemblyReference.cache
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.AssemblyInfoInputs.cache
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.AssemblyInfo.cs
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.dll
+C:\Users\Junior Cordeiro\Desktop\Ionic5\Ionic5\exPRIrience\exPRIrience\API\API\obj\Debug\netcoreapp2.0\API.pdb

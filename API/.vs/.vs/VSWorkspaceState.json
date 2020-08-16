@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\API",
+    "\\API\\config",
+    "\\API\\DesignTimeBuild",
+    "\\API\\v15",
+    "\\API\\v15\\Server",
+    "\\API\\v15\\Server\\sqlite3",
+    "\\API\\v16",
+    "\\API\\v16\\Server",
+    "\\API\\v16\\Server\\sqlite3"
+  ],
+  "SelectedNode": "\\API\\config\\applicationhost.config",
+  "PreviewInSolutionExplorer": false
+}
