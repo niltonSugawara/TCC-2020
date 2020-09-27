@@ -1,7 +1,9 @@
-package br.com.jn.analyze;
+package br.com.jn.analyze.service;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+import br.com.jn.analyze.utils.AnalyzeApplication;
 
 public class ServletInitializer extends SpringBootServletInitializer {
 
