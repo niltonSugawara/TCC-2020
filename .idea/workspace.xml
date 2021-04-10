@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19bf049f-0202-45f2-a5fe-bc315155368a" name="Default Changelist" comment="" />
+    <list default="true" id="19bf049f-0202-45f2-a5fe-bc315155368a" name="Default Changelist" comment="exclusão das classes ServiçoPrestado">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/ServicoPrestado.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/repository/ServicoPrestadoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/rest/ServicoPrestadoController.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +24,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Development" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -61,6 +76,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.ClientesApplication" />
+        <item itemvalue="Application.ClientesApplication" />
+        <item itemvalue="Application.ClientesApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -77,15 +94,34 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exclusão das classes ServiçoPrestado" />
+    <option name="LAST_COMMIT_MESSAGE" value="exclusão das classes ServiçoPrestado" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="461" y="199" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1612161574943">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="461" y="199" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1366.738@0.0.1366.738" timestamp="1612161574943" />
-    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616376724996">
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618083722915">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1616376724996" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1618083722915" />
+    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1618084041342">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1618084041342" />
     <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1617925674154">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -102,9 +138,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1617925674154" />
-    <state x="184" y="11" key="SettingsEditor" timestamp="1612142796908">
+    <state x="184" y="11" key="SettingsEditor" timestamp="1618083808128">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1612142796908" />
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1618083808128" />
   </component>
 </project>
