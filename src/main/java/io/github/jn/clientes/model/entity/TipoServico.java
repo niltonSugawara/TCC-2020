@@ -1,4 +1,21 @@
 package io.github.jn.clientes.model.entity;
 
+import lombok.Data;
+
+import javax.persistence.*;
+
+@Entity
+@Data
 public class TipoServico {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
+    @Column(nullable = false, length = 45)
+    private String nome;
+
+    @ManyToOne
+    @JoinColumn (name = "id_ordem_servico")
+    private OrdemServico ordemServico;
 }
