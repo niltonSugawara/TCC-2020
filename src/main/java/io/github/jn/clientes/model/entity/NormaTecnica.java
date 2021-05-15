@@ -15,14 +15,8 @@ public class NormaTecnica {
     @Column(nullable = false, length = 45)
     private String nome;
 
-    @Column(nullable = false, length = 10)
-    private String codigo;
-
     @Column(nullable = false, length = 250)
     private String descricao;
 
-    @ManyToOne
-    @JoinColumn (name = "id_cliente")
-    private Cliente cliente;
 
 }

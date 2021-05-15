@@ -1,0 +1,49 @@
+SELECT a.nome, b.nome, b.id_tipo_amostra, a.id, b.id_cliente
+FROM cliente as A
+INNER JOIN amostra as B
+on a.nome != b.nome
+
+SELECT a.nome, b.nome, b.id_tipo_amostra, a.id, b.id_cliente, o.id_tecnico
+FROM cliente as A
+INNER JOIN amostra as B
+inner join ordem_servico as o
+on a.id = b.id_cliente
+on a.id = o.id_tecnico
+
+Select oc.nome, st.nome, ts.nome, c.nome
+From orcamento as oc
+Inner join cliente as c
+inner join status as st
+inner join tipo_servico as ts
+on oc.id_cliente = c.id
+
+SELECT * FROM orcamento
+SELECT * FROM cliente
+SELECT * FROM AMOSTRA
+
+INSERT INTO tecnico ( crq, nome ) VALUES ( '120320', 'Teste Japa');
+INSERT INTO tecnico ( crq, nome ) VALUES ( '120321', 'Teste Paulo');
+
+INSERT INTO orcamento(data, nome, valor, id_cliente) VALUES ('2015-12-17','Teste Amostra QUATRO', 15 ,2);
+INSERT INTO orcamento(data, nome, valor, id_cliente) VALUES ('2015-12-17','Teste Amostra DOIS ', 13 ,3);
+INSERT INTO orcamento(data, nome, valor, id_cliente) VALUES ('2015-12-17','Teste Amostra UM', 12, 1);
+
+INSERT INTO ordem_servico (data, nome, id_tecnico) VALUES ('2015-12-22','Teste ordemServico Dois ' ,2);
+INSERT INTO ordem_servico (data, nome, id_tecnico) VALUES ('2015-12-22','Teste ordemServico Um ' ,1);
+INSERT INTO ordem_servico (data, nome, id_tecnico) VALUES ('2015-12-22','Teste ordemServico Tres ' ,3);
+
+INSERT INTO status( nome ) VALUES ( 'Teste Status I');
+INSERT INTO status( nome ) VALUES ( 'Teste Status II');
+INSERT INTO status( nome ) VALUES ( 'Teste Status III');
+
+INSERT INTO tipo_amostra (categoria, nome, volume) VALUES ('Teste Amostra QUATRO', 'Nome Amostra QUATRO' ,'liquid ');
+INSERT INTO tipo_amostra (categoria, nome, volume) VALUES ('Teste Amostra DOIS ', 'Nome Amostra DOIS' ,'liquid ');
+INSERT INTO tipo_amostra (categoria, nome, volume) VALUES ('Teste Amostra UM', 'Nome Amostra UM' ,'liquid ');
+
+INSERT INTO tipo_servico ( nome, id_ordem_servico ) VALUES ('Teste Solo', 1);
+INSERT INTO tipo_servico ( nome, id_ordem_servico ) VALUES ('Teste Turbidez', 2);
+
+INSERT INTO amostra (descricao, nome, id_cliente, ID_STATUS, id_tipo_amostra) VALUES ('Teste Amostra QUATRO', 'Nome Amostra QUATRO',2,1,1);
+INSERT INTO amostra (descricao, nome, id_cliente, ID_STATUS, id_tipo_amostra) VALUES ('Teste Amostra DOIS ', 'Nome Amostra DOIS',3,1,2);
+INSERT INTO amostra (descricao, nome, id_cliente, ID_STATUS, id_tipo_amostra) VALUES ('Teste Amostra UM', 'Nome Amostra UM',1,1,2);
+

@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19bf049f-0202-45f2-a5fe-bc315155368a" name="Default Changelist" comment="" />
+    <list default="true" id="19bf049f-0202-45f2-a5fe-bc315155368a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/Orcamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/OrdemServico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/Tecnico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/TipoServico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/script.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/Amostra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/Amostra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/NormaTecnica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/NormaTecnica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/TipoAmostra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/TipoAmostra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/Analyze.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/io.github.jn/Analyze/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/io.github.jn/Analyze/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/ClientesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/ClientesApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/config/InternacionalizacaoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/config/InternacionalizacaoConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/entity/Amostra.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/entity/Amostra.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/entity/NormaTecnica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/entity/NormaTecnica.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/entity/ServicoPrestado.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/repository/ClienteRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/repository/ClienteRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/repository/ServicoPrestadoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/rest/ApplicationControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/rest/ApplicationControllerAdvice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/rest/ServicoPrestadoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/rest/exception/ApiErrors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/rest/exception/ApiErrors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/util/BigDecimalConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/util/BigDecimalConverter.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +43,14 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Development" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -47,7 +81,7 @@
   <component name="RunManager">
     <configuration name="ClientesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.github.jn.clientes.ClientesApplication" />
-      <module name="Analyze" />
+      <module name="TCC-2020" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="io.github.jn.clientes.*" />
@@ -60,6 +94,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ClientesApplication" />
+        <item itemvalue="Application.ClientesApplication" />
         <item itemvalue="Application.ClientesApplication" />
       </list>
     </recent_temporary>
@@ -75,36 +111,80 @@
       <option name="presentableId" value="Default" />
       <updated>1604547748347</updated>
     </task>
+    <task id="LOCAL-00001" summary="exclusão das classes ServiçoPrestado">
+      <created>1618084091037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1618084091038</updated>
+    </task>
+    <task id="LOCAL-00002" summary="exclusão das classes ServiçoPrestado">
+      <created>1618084338106</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1618084338106</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="exclusão das classes ServiçoPrestado" />
+    <option name="LAST_COMMIT_MESSAGE" value="exclusão das classes ServiçoPrestado" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="199" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog" timestamp="1612161574943">
+    <state x="400" y="27" key="#ClientesApplication" timestamp="1618188036215">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="461" y="199" key="#com.intellij.refactoring.move.moveInstanceMethod.MoveInstanceMethodDialog/0.0.1366.738@0.0.1366.738" timestamp="1612161574943" />
-    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616376724996">
+    <state x="400" y="27" key="#ClientesApplication/0.0.1366.738@0.0.1366.738" timestamp="1618188036215" />
+    <state x="275" y="27" key="#Notifications" timestamp="1618084323010">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1616376724996" />
-    <state width="1323" height="215" key="GridCell.Tab.0.bottom" timestamp="1617925674154">
+    <state x="275" y="27" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1618084323010" />
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1618083722915">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1617925674154" />
-    <state width="1323" height="215" key="GridCell.Tab.0.center" timestamp="1617925674154">
+    <state x="413" y="116" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1618083722915" />
+    <state x="319" y="0" key="CommitChangelistDialog2" timestamp="1618084334276">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1617925674154" />
-    <state width="1323" height="215" key="GridCell.Tab.0.left" timestamp="1617925674153">
+    <state x="319" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1618084334276" />
+    <state width="1323" height="80" key="GridCell.Tab.0.bottom" timestamp="1621093141981">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1617925674153" />
-    <state width="1323" height="215" key="GridCell.Tab.0.right" timestamp="1617925674154">
+    <state width="1323" height="80" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1621093141981" />
+    <state width="1323" height="80" key="GridCell.Tab.0.center" timestamp="1621093141980">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="215" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1617925674154" />
-    <state x="184" y="11" key="SettingsEditor" timestamp="1612142796908">
+    <state width="1323" height="80" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1621093141980" />
+    <state width="1323" height="80" key="GridCell.Tab.0.left" timestamp="1621093141979">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1612142796908" />
+    <state width="1323" height="80" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1621093141979" />
+    <state width="1323" height="80" key="GridCell.Tab.0.right" timestamp="1621093141981">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="80" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1621093141981" />
+    <state x="184" y="11" key="SettingsEditor" timestamp="1618083808128">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="184" y="11" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1618083808128" />
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2" timestamp="1618084354246">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1618084354246" />
   </component>
 </project>
