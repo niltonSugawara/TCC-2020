@@ -26,4 +26,8 @@ public class Amostra {
     @JoinColumn (name = "id_tipo_amostra")
     private TipoAmostra tipoAmostra;
 
+    @ManyToOne
+    @JoinColumn (name = "id_Status")
+    private Status status;
+
 }

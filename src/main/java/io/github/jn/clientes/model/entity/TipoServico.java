@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 @Data
-public class TipoAmostra {
+public class TipoServico {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -15,12 +15,7 @@ public class TipoAmostra {
     @Column(nullable = false, length = 45)
     private String nome;
 
-    @Column(nullable = false, length = 45)
-    private String volume;
-
-    @Column(nullable = false, length = 250)
-    private String categoria;
-
-
-
+    @ManyToOne
+    @JoinColumn (name = "id_ordem_servico")
+    private OrdemServico ordemServico;
 }
