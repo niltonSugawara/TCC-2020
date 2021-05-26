@@ -3,6 +3,8 @@ package io.github.jn.clientes.model.entity;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
+import java.time.LocalDate;
 import java.util.Date;
 
 @Entity
@@ -17,10 +19,13 @@ public class Orcamento {
     private String nome;
 
     @Column(nullable = false, length = 50)
-    private Float valor;
+    private BigDecimal valor;
 
-    @Column(nullable = false, length = 50)
-    private Date data;
+    @Column(nullable = false, length = 8)
+    private LocalDate data;
+
+    @Column(nullable = true, length = 150)
+    private String descricao;
 
     @ManyToOne
     @JoinColumn (name = "id_cliente")
