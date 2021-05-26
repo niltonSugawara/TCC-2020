@@ -18,5 +18,9 @@ public class NormaTecnica {
     @Column(nullable = false, length = 250)
     private String descricao;
 
+    @ManyToOne
+    @JoinColumn (name = "id_ordem_servico")
+    private OrdemServico ordemServico;
+
 
 }
