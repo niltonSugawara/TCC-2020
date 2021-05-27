@@ -28,7 +28,7 @@ public class OrcamentoController {
     @ResponseStatus(HttpStatus.CREATED)
     public Orcamento salvar (@RequestBody OrcamentoDTO dto){
         LocalDate data = LocalDate.parse(dto.getData(),
-                DateTimeFormatter.ofPattern("dd-MM-yyyy"));
+                DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         Integer id_cliente = dto.getId_cliente();
 
         Cliente cliente = clienteRepository.findById(id_cliente)
@@ -40,7 +40,7 @@ public class OrcamentoController {
         orcamento.setNome(dto.getNome());
         orcamento.setData(data);
         orcamento.setCliente(cliente);
-        orcamento.setValor(dto.getValor());
+        orcamento.setValor(bigDecimalConverter.converter(dto.getValor()));
 
         return  repository.save(orcamento);
 

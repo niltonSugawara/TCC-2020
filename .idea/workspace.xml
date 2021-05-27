@@ -5,27 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="19bf049f-0202-45f2-a5fe-bc315155368a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/repository/OrcamentoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/rest/OrcamentoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/rest/dto/OrcamentoDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analyze.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/config/InternacionalizacaoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/config/InternacionalizacaoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/NormaTecnica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/NormaTecnica.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/Orcamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/OrdemServico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/model/entity/OrdemServico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/rest/ApplicationControllerAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/rest/ApplicationControllerAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/rest/ClienteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/rest/ClienteController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/config/InternacionalizacaoConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/config/InternacionalizacaoConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/entity/Cliente$ClienteBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/entity/Cliente$ClienteBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/entity/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/entity/Cliente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/entity/NormaTecnica.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/model/entity/NormaTecnica.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/rest/ApplicationControllerAdvice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/rest/ApplicationControllerAdvice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/rest/ClienteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/rest/ClienteController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/messages.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/messages.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/rest/OrcamentoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/rest/OrcamentoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/rest/dto/OrcamentoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/rest/dto/OrcamentoDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/util/BigDecimalConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/jn/clientes/util/BigDecimalConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/util/BigDecimalConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/github/jn/clientes/util/BigDecimalConverter.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +35,31 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="Development" />
+                    <option name="lastUsedInstant" value="1621990143" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/refatorarEstrutura" />
+                    <option name="lastUsedInstant" value="1621990043" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="ProjectId" id="1jr2Al8iT6FpkTIcHJWl7dabAE6" />
   <component name="ProjectLevelVcsManager">

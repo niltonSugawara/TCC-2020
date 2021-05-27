@@ -1,5 +1,6 @@
 package io.github.jn.clientes.model.entity;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import javax.persistence.*;
@@ -22,7 +23,9 @@ public class Orcamento {
     private BigDecimal valor;
 
     @Column(nullable = false, length = 8)
+    @JsonFormat(pattern = "dd/MM/yyyy")
     private LocalDate data;
+
 
     @Column(nullable = true, length = 150)
     private String descricao;
