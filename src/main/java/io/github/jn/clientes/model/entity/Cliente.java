@@ -27,8 +27,8 @@ public class Cliente {
     @NotEmpty(message = "{campo.nomeEmp.obrigatorio}")
     private String razaoSocial;
 
-    @Column(name = "nomeFantasia", length = 80)
-    private String nomeFantasia;
+    @Column( name = "nome", nullable = false, length = 80)
+    private String nome;
 
     @Column(nullable = false, length = 14)
     @NotBlank (message = "{campo.cnpj.obrigatorio}")

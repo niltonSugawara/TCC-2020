@@ -21,6 +21,4 @@ public class NormaTecnica {
     @ManyToOne
     @JoinColumn (name = "id_ordem_servico")
     private OrdemServico ordemServico;
-
-
 }

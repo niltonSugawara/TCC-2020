@@ -18,4 +18,8 @@ public class Tecnico {
     @Column(nullable = false, length = 45)
     private String crq;
 
+    @ManyToOne
+    @JoinColumn (name = "id_ordem_servico")
+    private OrdemServico ordemServico;
+
 }

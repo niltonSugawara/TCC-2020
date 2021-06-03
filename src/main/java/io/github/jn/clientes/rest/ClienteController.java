@@ -63,7 +63,11 @@ public class ClienteController {
                 .findById(id)
                 .map(cliente -> {
                     cliente.setRazaoSocial(clienteAtualizado.getRazaoSocial());
-                        cliente.setCnpj(clienteAtualizado.getCnpj());
+                    cliente.setCnpj(clienteAtualizado.getCnpj());
+                    cliente.setEndereco(clienteAtualizado.getEndereco());
+                    cliente.setNome(clienteAtualizado.getNome());
+                    cliente.setEmail(clienteAtualizado.getEmail());
+                    cliente.setTelefone(clienteAtualizado.getTelefone());
 
                     return repository.save(clienteAtualizado);
                 })
