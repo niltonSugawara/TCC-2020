@@ -5,10 +5,9 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class OrcamentoDTO {
+public class NormaTecnicaDTO {
     private String nome;
-    private String valor;
     private String descricao;
-    private String data;
-    private Integer id_cliente;
+    private Integer id_ordem_servico;
+
 }

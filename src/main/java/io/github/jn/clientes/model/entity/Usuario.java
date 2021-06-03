@@ -1,13 +1,18 @@
 package io.github.jn.clientes.model.entity;
 
+import lombok.*;
 import org.hibernate.validator.constraints.br.CPF;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
-
+@Entity
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@Data
+@Builder
+@Table(uniqueConstraints= {@UniqueConstraint( columnNames = {"cpf"} )} )
 public class Usuario {
 
     @Id

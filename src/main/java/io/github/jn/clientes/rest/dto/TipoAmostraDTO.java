@@ -5,10 +5,9 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class ServicoPrestadoDTO {
-    private String descricao;
-    private String preco;
-    private String data;
+public class TipoAmostraDTO {
+
     private Integer id;
+    private String tipoAmostra;
 
 }

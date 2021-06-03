@@ -13,14 +13,6 @@ public class TipoAmostra {
     private Integer id;
 
     @Column(nullable = false, length = 45)
-    private String nome;
-
-    @Column(nullable = false, length = 45)
-    private String volume;
-
-    @Column(nullable = false, length = 250)
-    private String categoria;
-
-
+    private String tipoAmostra;
 
 }
