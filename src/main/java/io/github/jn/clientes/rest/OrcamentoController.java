@@ -11,6 +11,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
+import javax.validation.Valid;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
@@ -18,6 +19,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/orcamento")
+@CrossOrigin("http://localhost:4200")
 @RequiredArgsConstructor
 public class OrcamentoController {
 
@@ -47,10 +49,53 @@ public class OrcamentoController {
 
     @GetMapping
     public List<Orcamento> buscarOrcamento (
-        @RequestParam(value = "nome", required = false, defaultValue = "") String nome
-    ) {
+        @RequestParam(value = "nome", required = false, defaultValue = "") String nome) {
 
-    return repository.findAllByNomeClienteAndMes( "%" + nome + "%");
+        return repository.findAllByNomeClienteAndMes( "%" + nome + "%");
+    }
 
+    @GetMapping("{id}")
+    public Orcamento buscarOrcamentoPorId (@PathVariable Integer id){
+        return repository
+                .findById(id)
+                .orElseThrow(
+                        ()-> new ResponseStatusException(HttpStatus.NO_CONTENT,
+                                "Orçamento não encontrado")
+                );
+    }
+
+    @PutMapping("{id}")
+    public void atualizarOrcamento (@PathVariable Integer id, @RequestBody @Valid
+                                    Orcamento orcamentoAtualizado){
+        repository
+                .findById(id)
+                .map(orcamento -> {
+                    orcamento.setNome(orcamentoAtualizado.getNome());
+                    orcamento.setDescricao(orcamentoAtualizado.getDescricao());
+                    orcamento.setValor(orcamentoAtualizado.getValor());
+                    orcamento.setData(orcamentoAtualizado.getData());
+                    orcamento.setCliente(orcamentoAtualizado.getCliente());
+
+                    return repository.save(orcamentoAtualizado);
+                })
+                .orElseThrow(
+                        ()-> new ResponseStatusException(HttpStatus.NO_CONTENT,
+                                "Orçamento não encontrado")
+                );
+    }
+
+    @DeleteMapping("{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deletarOrcamentoPorId (@PathVariable Integer id) {
+        repository
+                .findById(id)
+                .map(orcamento -> {
+                    repository.delete(orcamento);
+                    return Void.TYPE;
+                })
+                .orElseThrow(
+                        ()-> new ResponseStatusException(HttpStatus.NO_CONTENT,
+                                "Orçamento não encontrado")
+                );
     }
 }

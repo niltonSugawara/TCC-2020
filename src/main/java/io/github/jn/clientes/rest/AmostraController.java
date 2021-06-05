@@ -39,7 +39,7 @@ public class AmostraController {
                 .findById(id)
                 .orElseThrow(
                         () -> new ResponseStatusException(HttpStatus.NOT_FOUND,
-                                "Amostra não encontrada"));
+                                "AmostraDTO não encontrada"));
     }
 
     @DeleteMapping("{id}")
@@ -53,7 +53,7 @@ public class AmostraController {
                 })
                 .orElseThrow(
                         () -> new ResponseStatusException(HttpStatus.NOT_FOUND,
-                                "Amostra não encontrada"));
+                                "AmostraDTO não encontrada"));
     }
 
     @PutMapping("{id}")
@@ -72,6 +72,6 @@ public class AmostraController {
                 })
                 .orElseThrow(
                         () -> new ResponseStatusException(HttpStatus.NOT_FOUND,
-                                "Amostra não encontrada"));
+                                "AmostraDTO não encontrada"));
     }
 }

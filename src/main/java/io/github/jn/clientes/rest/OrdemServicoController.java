@@ -41,4 +41,32 @@ public class OrdemServicoController {
     public OrdemServico salvarOrdemServico (@RequestBody @Valid OrdemServico ordemServico) {
         return  ordemServicoRepository.save(ordemServico);
     }
+
+    @DeleteMapping("{id}")
+    public OrdemServico deletarOrdemServicoPorId (@PathVariable Integer id) {
+        return ordemServicoRepository
+                .findById(id)
+                .orElseThrow(
+                        () -> new ResponseStatusException(HttpStatus.NOT_FOUND,
+                                "Ordem de Serviço não encontrado"));
+    }
+
+    @PutMapping("{id}")
+    public void atualizarOrdemServico (@PathVariable Integer id, @RequestBody @Valid
+                                       OrdemServico ordemServicoAtualizada) {
+        ordemServicoRepository
+                .findById(id)
+                .map(ordemServico -> {
+                    ordemServico.setNome(ordemServicoAtualizada.getNome());
+                    ordemServico.setData(ordemServicoAtualizada.getData());
+                    ordemServico.setTecnico(ordemServicoAtualizada.getTecnico());
+                    return ordemServicoRepository.save(ordemServicoAtualizada);
+                })
+                .orElseThrow(
+                        ()-> new ResponseStatusException(HttpStatus.NO_CONTENT,
+                                "Ordem de Serviço não encontrado"));
+    }
+
+
+
 }
